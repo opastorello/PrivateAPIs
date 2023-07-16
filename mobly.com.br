@@ -1,0 +1,100 @@
+GET /v1/catalog/search?skus=MA019TA66EZHMOB,%0AMA019TA68OTFMOB&page=1 HTTP/2
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+X-Api-Appid: 1
+X-Api-Datetime: 2023-07-16T22:32:50+0000
+Skus: MA019TA66EZHMOB,MA019TA68OTFMOB
+Page: 1
+Sort: undefined
+X-Api-Error-Detail: 1
+X-Api-Signature: 77a8a1ecf6a48ee47b2120eef4ea7fdd29cbd916ae6f99ba15462d7c9db55f19
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+
+GET /v1/categories HTTP/1.1
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+X-Api-Appid: 1
+X-Api-Datetime: 2023-07-16T22:32:48+0000
+X-Api-Error-Detail: 1
+X-Api-Signature: 5b7c0055970956185c821811501ccdccefd8f2728f2d28a4f449ecf4dc7f17b3
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+Connection: close
+
+POST /v1/catalog/search HTTP/2
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+X-Api-Appid: 1
+X-Api-Datetime: 2023-07-16T22:38:04+0000
+X-Api-Error-Detail: 1
+Raw-Input: {"page":1,"filter":{},"sort":null,"categories":["2574"]}
+X-Api-Signature: 1b2ae6131c4963908742574a4bc1e2a4d6613ba97dde76655fe5c3392dc80389
+Content-Type: application/json
+Content-Length: 56
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+
+{"page":1,"filter":{},"sort":null,"categories":["2574"]}
+
+GET /v1/catalog/search/suggestion?q=closet HTTP/2
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+
+POST /v1/catalog/search HTTP/2
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+X-Api-Appid: 1
+X-Api-Datetime: 2023-07-16T22:38:48+0000
+X-Api-Error-Detail: 1
+Raw-Input: {"page":1,"filter":{},"sort":null,"term":"MO879TA69GXIMOB"}
+X-Api-Signature: d84e6fe975f73f2967fcdb2f81d4e18dcf7a765da92ed60f477cbe7544760c9a
+Content-Type: application/json
+Content-Length: 59
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+
+{"page":1,"filter":{},"sort":null,"term":"MO879TA69GXIMOB"}
+
+POST /v1/catalog/search HTTP/2
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+X-Api-Appid: 1
+X-Api-Datetime: 2023-07-16T22:38:51+0000
+X-Api-Error-Detail: 1
+Raw-Input: {"page":1,"filter":{},"sort":null,"configList":["788060","760432","524778","702489","666428","775226","702554","883957"]}
+X-Api-Signature: e8bd23609f6ecf934c8c4be2b10d5f90e1c0d8b7ac540506c33394824e907033
+Content-Type: application/json
+Content-Length: 121
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+
+{"page":1,"filter":{},"sort":null,"configList":["788060","760432","524778","702489","666428","775226","702554","883957"]}
+
+POST /v1/user/login HTTP/2
+Host: app-bff.mobly.com.br
+Accept: application/json, text/plain, */*
+X-Api-Appid: 1
+X-Api-Datetime: 2023-07-16T22:39:50+0000
+X-Api-Error-Detail: 1
+X-Api-Signature: 46071b0b58f65998efd64f07fbab8ed8c0227670398afae4dca4de78a707da42
+Content-Type: multipart/form-data; boundary=ba1ae636-db6d-4621-a778-3d5bad38c941
+Content-Length: 292
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.1
+
+--ba1ae636-db6d-4621-a778-3d5bad38c941
+content-disposition: form-data; name="identity"
+Content-Length: 17
+
+email@dominio.com
+--ba1ae636-db6d-4621-a778-3d5bad38c941
+content-disposition: form-data; name="password"
+Content-Length: 8
+
+senha123
+--ba1ae636-db6d-4621-a778-3d5bad38c941--
+
+
