@@ -1,20 +1,9 @@
 POST /oauth/token HTTP/2
 Host: api.sparkleapp.com.br
-Connection: keep-alive
-sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"
-X-Sparkle-AppVersion: 2.15.79
-sec-ch-ua-mobile: ?0
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+X-Sparkle-Appversion: 2.47.4
+X-Sparkle-Appsystem: Android
 Content-Type: application/x-www-form-urlencoded
-Accept: application/json, text/plain, */*
-X-Sparkle-AppSystem: web
-sec-ch-ua-platform: "Windows"
-Origin: https://hotmart.com
-Sec-Fetch-Site: cross-site
-Sec-Fetch-Mode: cors
-Sec-Fetch-Dest: empty
-Referer: https://hotmart.com/
-Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6
 Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.14.9
 
 username=email@dominio.com&password=senha123&grant_type=password
